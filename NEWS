@@ -1,0 +1,18 @@
+CHANGES IN VERSION 0.1.0
+------------------------
+ o inital version <2014-07-28, Mon>
+
+> supportedID()
+[1] "convert NCBI accession number..."
+ACCNUM2EG:	Accession number	=>  entrezgene
+[1] "convert Entrezgene ID..."
+EG2ACCNUM:	EntrezgeneID		=>  NCBI accession number
+EG2Symbol:	EntrezgeneID		=>  gene Symbol
+[1] "convert IPI..."
+IPI2EG:		IPI			=>  entrezgene
+IPI2Symbol:	IPI			=>  gene Symbol
+[1] "convert Symbol..."
+Symbol2EG:	Symbol			=>  entrezgene
+[1] "convert Uniprot..."
+Uniprot2EG:	Uniprot			=>  entrezgene
+
