@@ -11,8 +11,8 @@
 ##' @author ygc
 ensg2ensp <- function(ensg, organism="human") {
     if (organism == "human") {
-        res <- select(org.Hs.eg.db, keys=ensg, keytype="ENSEMBL",
-                      columns=c("ENSEMBL", "ENSEMBLPROT"))
+        res <- suppressWarnings(select(org.Hs.eg.db, keys=ensg, keytype="ENSEMBL",
+                      columns=c("ENSEMBL", "ENSEMBLPROT")))
         return(res)
     } else {
         stop("organism not supported yet...")
