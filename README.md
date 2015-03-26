@@ -3,6 +3,9 @@ bitr
 
 Biological Id TranslatoR
 
+A universal biological ID translator function, [bitr](https://github.com/GuangchuangYu/clusterProfiler/blob/master/R/bitr.R), was implemented in [clusterProfiler](https://github.com/GuangchuangYu/clusterProfiler) and this package is deprecated. All features will eventually move to [clusterProfiler](https://github.com/GuangchuangYu/clusterProfiler).
+
+
 ## Authors ##
 
 Guangchuang YU, School of Public Health, The University of Hong Kong [http://ygc.name](http://ygc.name)
